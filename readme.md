@@ -331,7 +331,7 @@ JavaScript is a dynamically typed language. It means that a [variable](https://w
     let counter = 120; // counter is a number
     counter = false;   // counter is now a boolean
     counter = "foo";   // counter is now a string
-To get the current type of the value that the variable stores, you use the `[typeof](https://www.javascripttutorial.net/javascript-typeof/)` operator:
+To get the current type of the value that the variable stores, you use the `[typeof]` operator:
 
     let counter = 120;
     console.log(typeof(counter)); // "number"
