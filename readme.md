@@ -588,7 +588,7 @@ Output:
 
 ### Getting the array size
 
-Typically, the `[length](https://www.javascripttutorial.net/javascript-array-length/)` property of an array returns the number of elements. The following example shows how to use the `length` property:
+Typically, the `[length]` property of an array returns the number of elements. The following example shows how to use the `length` property:
 
     let mountains = ['Everest', 'Fuji', 'Nanga Parbat'];
     console.log(mountains.length); // 3
