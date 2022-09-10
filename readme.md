@@ -595,7 +595,7 @@ Typically, the `[length]` property of an array returns the number of elements. T
 
 ### Basic operations on arrays
 
-The following explains some basic operations on arrays. And you’ll learn advanced operations such as `[map()](https://www.javascripttutorial.net/javascript-array-map/)`, `[filter()](https://www.javascripttutorial.net/javascript-array-filter/)`, and `[reduce()](https://www.javascripttutorial.net/javascript-array-reduce/)` in the next tutorials.
+The following explains some basic operations on arrays. And you’ll learn advanced operations such as `[map()]`, `[filter()]`, and `[reduce()]` in the next tutorials.
 
 ### 1) Adding an element to the end of an array
 
@@ -615,6 +615,7 @@ To add an element to the beginning of an array, you use the `unshift()` method:
 
     let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
     seas.unshift('Red Sea');
+ 
     
     console.log(seas);
 
