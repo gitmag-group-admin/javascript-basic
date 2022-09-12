@@ -1010,7 +1010,8 @@ In addition to the above rules, the equal (`==`) and not-equal(`!=`) operators a
 Besides the comparison operators above, JavaScript provides the strict equal ( `===`) and not strict equal ( `!==`) operators.
 
 ![enter image description here](https://github.com/gitmag-group-admin/javascript-basic/blob/main/5.PNG?raw=true)
-The strict equal and not strict equal operators behave like the equal and not equal operators except that they don’t convert the operand before comparison. See the following example:
+
+  The strict equal and not strict equal operators behave like the equal and not equal operators except that they don’t convert the operand before comparison. See the following example:
 
     console.log("10" == 10); // true
     console.log("10" === 10); // false
