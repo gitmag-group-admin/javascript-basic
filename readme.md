@@ -930,7 +930,8 @@ When applying the increment/decrement operator to a non-numeric value, it perfor
 
 ### JavaScript Comparison Operators
 To compare two values, you use a comparison operator. The following table shows the comparison operators in JavaScript:
-![enter image description here](https://github.com/gitmag-group-admin/javascript-basic/blob/main/4.PNG?raw=true)
+  
+![enter image description here]
 A comparison operator returns a [Boolean](https://www.javascripttutorial.net/javascript-boolean/) value indicating that the comparison is true or not. See the following example:
 
     let r1 = 20 > 10; // true
