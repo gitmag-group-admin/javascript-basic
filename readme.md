@@ -1,5 +1,4 @@
 
-
 #  What is JavaScript
 
 JavaScript is a programming language initially designed to interact with elements of web pages.
@@ -331,7 +330,7 @@ JavaScript is a dynamically typed language. It means that a [variable](https://w
     let counter = 120; // counter is a number
     counter = false;   // counter is now a boolean
     counter = "foo";   // counter is now a string
-To get the current type of the value that the variable stores, you use the `[typeof]` operator:
+To get the current type of the value that the variable stores, you use the `[typeof](https://www.javascripttutorial.net/javascript-typeof/)` operator:
 
     let counter = 120;
     console.log(typeof(counter)); // "number"
@@ -588,14 +587,14 @@ Output:
 
 ### Getting the array size
 
-Typically, the `[length]` property of an array returns the number of elements. The following example shows how to use the `length` property:
+Typically, the `[length](https://www.javascripttutorial.net/javascript-array-length/)` property of an array returns the number of elements. The following example shows how to use the `length` property:
 
     let mountains = ['Everest', 'Fuji', 'Nanga Parbat'];
     console.log(mountains.length); // 3
 
 ### Basic operations on arrays
 
-The following explains some basic operations on arrays. And you’ll learn advanced operations such as `[map()]`, `[filter()]`, and `[reduce()]` in the next tutorials.
+The following explains some basic operations on arrays. And you’ll learn advanced operations such as `[map()](https://www.javascripttutorial.net/javascript-array-map/)`, `[filter()](https://www.javascripttutorial.net/javascript-array-filter/)`, and `[reduce()](https://www.javascripttutorial.net/javascript-array-reduce/)` in the next tutorials.
 
 ### 1) Adding an element to the end of an array
 
@@ -615,7 +614,6 @@ To add an element to the beginning of an array, you use the `unshift()` method:
 
     let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
     seas.unshift('Red Sea');
- 
     
     console.log(seas);
 
@@ -931,8 +929,7 @@ When applying the increment/decrement operator to a non-numeric value, it perfor
 ### JavaScript Comparison Operators
 To compare two values, you use a comparison operator. The following table shows the comparison operators in JavaScript:
   
-  
-![enter image description here]
+![enter image description here](https://github.com/gitmag-group-admin/javascript-basic/blob/main/4.PNG?raw=true)
 A comparison operator returns a [Boolean](https://www.javascripttutorial.net/javascript-boolean/) value indicating that the comparison is true or not. See the following example:
 
     let r1 = 20 > 10; // true
