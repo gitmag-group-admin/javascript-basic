@@ -2357,40 +2357,7 @@ Alternatively, we can all the `add()` function via the `sum` variable like this:
 ```javascript
 let result = sum(10,20);
 ```
-### Passing a function to another function
 
-Because functions are values, you can pass a function as an argument into another function.
-
-The following declares the `average()` function that takes three arguments. The third argument is a function:
-```javascript
-function average(a, b, fn) {
-    return fn(a, b) / 2;
-}
-```
-Now, you can pass the `sum` function to the `average()` function as follows:
-```javascript
-let result = average(10, 20, sum);
-```
-Put it all together:
-```javascript
-function add(a, b) {
-    return a + b;
-}
-
-let sum = add;
-
-function average(a, b, fn) {
-    return fn(a, b) / 2;
-}
-
-let result = average(10, 20, sum);
-
-console.log(result);
-```
-Output:
-```
-15
-```
 
 ### Introduction to JavaScript anonymous functions
 An anonymous function is a [function](https://www.javascripttutorial.net/javascript-function/) without a name. The following shows how to define an anonymous function:
@@ -2422,41 +2389,7 @@ setTimeout(function() {
 ```
 In this example, we pass an anonymous function into the `setTimeout()` function. The `setTimeout()` function executes this anonymous function one second later.
 
-### Immediately invoked function execution
 
-If you want to create a function and execute it immediately after the declaration, you can declare an anonymous function like this:
-```javascript
-(function() {
-    console.log('IIFE');
-})();
-```
-How it works.
-
-First, define a function expression:
-```javascript
-(function () {
-    console.log('Immediately invoked function execution');
-})
-```
-This expression returns a function.
-
-Second, call the function by adding the trailing parentheses `()`:
-```javascript
-(function () {
-    console.log('Immediately invoked function execution');
-})();
-```
-and sometimes, you may want to pass arguments into it, like this:
-```javascript
-let person = {
-    firstName: 'John',
-    lastName: 'Doe'
-};
-
-(function () {
-    console.log(person.firstName} + ' ' + person.lastName);
-})(person);
-```
 ### Arrow functions
 ES6 introduced [arrow function](https://www.javascripttutorial.net/es6/javascript-arrow-function/) expression that provides a shorthand for declaring anonymous functions:
 
