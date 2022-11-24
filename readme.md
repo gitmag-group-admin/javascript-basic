@@ -2501,43 +2501,7 @@ Output:
 ```
 The `countDown()` seems to work as expected.
 
-However, as mentioned in the [Function type tutorial](https://www.javascripttutorial.net/javascript-function-type/), the function’s name is a reference to the actual function object.
 
-If the function name is set to `null` somewhere in the code, the recursive function will stop working.
-
-For example, the following code will result in an error:
-```javascript
-let newYearCountDown = countDown;
-// somewhere in the code
-countDown = null;
-// the following function call will cause an error
-newYearCountDown(10);
-```
-Error:
-`Uncaught TypeError: countDown is not a function`
-How the script works:
-
--   First, assign the `countDown` function name to the variable `newYearCountDown`.
--   Second, set the `countDown` function reference to `null`.
--   Third, call the `newYearCountDown` function.
-
-The code causes an error because the body of the `countDown()` function references the `countDown` function name, which was set to `null` at the time of calling the function.
-
-To fix it, you can use a named function expression as follows:
-```javascript
-let countDown = function f(fromNumber) {
-    console.log(fromNumber);
-
-    let nextNumber = fromNumber - 1;
-
-    if (nextNumber > 0) {
-        f(nextNumber);
-    }
-}
-
-let newYearCountDown = countDown;
-countDown = null;
-newYearCountDown(10);
 ```
 #### 2) Calculate the sum of n natural numbers example
 
