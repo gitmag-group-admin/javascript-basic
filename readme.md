@@ -2502,7 +2502,6 @@ Output:
 The `countDown()` seems to work as expected.
 
 
-```
 #### 2) Calculate the sum of n natural numbers example
 
 Suppose you need to calculate the sum of natural numbers from 1 to n using the recursion technique. To do that, you need to define the `sum()` recursively as follows:
