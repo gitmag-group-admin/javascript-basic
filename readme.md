@@ -114,7 +114,7 @@ To insert JavaScript into an HTML page, you use the `<script>` element. There ar
 Placing JavaScript code inside the `<script>` element directly is not recommended and should be used only for proof of concept or testing purposes.
 
 The JavaScript code in the `<script>` element is interpreted from top to bottom. For example:
-
+```html
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -127,7 +127,7 @@ The JavaScript code in the `<script>` element is interpreted from top to bottom.
     <body>
     </body>
     </html>
-
+```
 
 In the `<script>` element, we use the **`alert()`** function to display the `Hello, World!` message.
 
