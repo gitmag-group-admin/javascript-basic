@@ -115,18 +115,18 @@ Placing JavaScript code inside the `<script>` element directly is not recommende
 
 The JavaScript code in the `<script>` element is interpreted from top to bottom. For example:
 ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>JavaScript Hello World Example</title>
-        <script>
-            alert('Hello, World!');
-        </script>
-    </head>
-    <body>
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Hello World Example</title>
+    <script>
+        alert('Hello, World!');
+    </script>
+</head>
+<body>
+</body>
+</html>
 ```
 
 In the `<script>` element, we use the **`alert()`** function to display the `Hello, World!` message.
@@ -139,21 +139,25 @@ To include a JavaScript from an external file:
 
 The following shows the contents of the app.js file:
 
-    alert('Hello, World!');
+```javascript
+alert('Hello, World!');
+```
 
 And the following shows the `helloworld.html` file:
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>JavaScript Hello World Example</title>
-        <script src="js/app.js"></script>
-    </head>
-    <body>
-    
-    </body>
-    </html>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Hello World Example</title>
+    <script src="js/app.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+```
 
 If you launch the `helloworld.html` file in the web browser, you will see an alert that displays the `Hello, World!` message.
 
